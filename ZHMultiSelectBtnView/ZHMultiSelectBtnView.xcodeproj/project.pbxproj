@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A5F67A215372F100921B28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5F679215372F100921B28 /* AppDelegate.m */; };
+		04A5F67D215372F100921B28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5F67C215372F100921B28 /* ViewController.m */; };
+		04A5F680215372F100921B28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A5F67E215372F100921B28 /* Main.storyboard */; };
+		04A5F682215372F300921B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A5F681215372F300921B28 /* Assets.xcassets */; };
+		04A5F685215372F300921B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A5F683215372F300921B28 /* LaunchScreen.storyboard */; };
+		04A5F688215372F300921B28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5F687215372F300921B28 /* main.m */; };
+		04A5F692215372F300921B28 /* ZHMultiSelectBtnViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5F691215372F300921B28 /* ZHMultiSelectBtnViewTests.m */; };
+		04A5F69D215372F300921B28 /* ZHMultiSelectBtnViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5F69C215372F300921B28 /* ZHMultiSelectBtnViewUITests.m */; };
+		04A5F6AD2153730800921B28 /* ZHMultiSelectBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5F6AC2153730800921B28 /* ZHMultiSelectBtnView.m */; };
+		04A5F6B12153732800921B28 /* ZHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5F6AF2153732800921B28 /* ZHViewController.m */; };
+		04A5F6B22153732800921B28 /* ZHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A5F6B02153732800921B28 /* ZHViewController.xib */; };
+		04A5F6B5215376E200921B28 /* ZHBtnCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5F6B4215376E200921B28 /* ZHBtnCameraView.m */; };
+		04A5F6B7215376F300921B28 /* ZHBtnCameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A5F6B6215376F300921B28 /* ZHBtnCameraView.xib */; };
+		04A5F6BA2153957E00921B28 /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5F6B92153957E00921B28 /* UIImage+Helper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A5F68E215372F300921B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A5F66D215372F100921B28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A5F674215372F100921B28;
+			remoteInfo = ZHMultiSelectBtnView;
+		};
+		04A5F699215372F300921B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A5F66D215372F100921B28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A5F674215372F100921B28;
+			remoteInfo = ZHMultiSelectBtnView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A5F675215372F100921B28 /* ZHMultiSelectBtnView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHMultiSelectBtnView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A5F678215372F100921B28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04A5F679215372F100921B28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04A5F67B215372F100921B28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04A5F67C215372F100921B28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04A5F67F215372F100921B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A5F681215372F300921B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A5F684215372F300921B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04A5F686215372F300921B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A5F687215372F300921B28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A5F68D215372F300921B28 /* ZHMultiSelectBtnViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHMultiSelectBtnViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A5F691215372F300921B28 /* ZHMultiSelectBtnViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHMultiSelectBtnViewTests.m; sourceTree = "<group>"; };
+		04A5F693215372F300921B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A5F698215372F300921B28 /* ZHMultiSelectBtnViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHMultiSelectBtnViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A5F69C215372F300921B28 /* ZHMultiSelectBtnViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHMultiSelectBtnViewUITests.m; sourceTree = "<group>"; };
+		04A5F69E215372F300921B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A5F6AB2153730800921B28 /* ZHMultiSelectBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHMultiSelectBtnView.h; sourceTree = "<group>"; };
+		04A5F6AC2153730800921B28 /* ZHMultiSelectBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHMultiSelectBtnView.m; sourceTree = "<group>"; };
+		04A5F6AE2153732800921B28 /* ZHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHViewController.h; sourceTree = "<group>"; };
+		04A5F6AF2153732800921B28 /* ZHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHViewController.m; sourceTree = "<group>"; };
+		04A5F6B02153732800921B28 /* ZHViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZHViewController.xib; sourceTree = "<group>"; };
+		04A5F6B3215376E200921B28 /* ZHBtnCameraView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHBtnCameraView.h; sourceTree = "<group>"; };
+		04A5F6B4215376E200921B28 /* ZHBtnCameraView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHBtnCameraView.m; sourceTree = "<group>"; };
+		04A5F6B6215376F300921B28 /* ZHBtnCameraView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZHBtnCameraView.xib; sourceTree = "<group>"; };
+		04A5F6B82153957E00921B28 /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
+		04A5F6B92153957E00921B28 /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A5F672215372F100921B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A5F68A215372F300921B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A5F695215372F300921B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A5F66C215372F100921B28 = {
+			isa = PBXGroup;
+			children = (
+				04A5F677215372F100921B28 /* ZHMultiSelectBtnView */,
+				04A5F690215372F300921B28 /* ZHMultiSelectBtnViewTests */,
+				04A5F69B215372F300921B28 /* ZHMultiSelectBtnViewUITests */,
+				04A5F676215372F100921B28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A5F676215372F100921B28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A5F675215372F100921B28 /* ZHMultiSelectBtnView.app */,
+				04A5F68D215372F300921B28 /* ZHMultiSelectBtnViewTests.xctest */,
+				04A5F698215372F300921B28 /* ZHMultiSelectBtnViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A5F677215372F100921B28 /* ZHMultiSelectBtnView */ = {
+			isa = PBXGroup;
+			children = (
+				04A5F6AA215372FB00921B28 /* ZHMultiSelectBtnView */,
+				04A5F678215372F100921B28 /* AppDelegate.h */,
+				04A5F679215372F100921B28 /* AppDelegate.m */,
+				04A5F67B215372F100921B28 /* ViewController.h */,
+				04A5F67C215372F100921B28 /* ViewController.m */,
+				04A5F67E215372F100921B28 /* Main.storyboard */,
+				04A5F6AE2153732800921B28 /* ZHViewController.h */,
+				04A5F6AF2153732800921B28 /* ZHViewController.m */,
+				04A5F6B02153732800921B28 /* ZHViewController.xib */,
+				04A5F6B3215376E200921B28 /* ZHBtnCameraView.h */,
+				04A5F6B4215376E200921B28 /* ZHBtnCameraView.m */,
+				04A5F6B6215376F300921B28 /* ZHBtnCameraView.xib */,
+				04A5F6B82153957E00921B28 /* UIImage+Helper.h */,
+				04A5F6B92153957E00921B28 /* UIImage+Helper.m */,
+				04A5F681215372F300921B28 /* Assets.xcassets */,
+				04A5F683215372F300921B28 /* LaunchScreen.storyboard */,
+				04A5F686215372F300921B28 /* Info.plist */,
+				04A5F687215372F300921B28 /* main.m */,
+			);
+			path = ZHMultiSelectBtnView;
+			sourceTree = "<group>";
+		};
+		04A5F690215372F300921B28 /* ZHMultiSelectBtnViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A5F691215372F300921B28 /* ZHMultiSelectBtnViewTests.m */,
+				04A5F693215372F300921B28 /* Info.plist */,
+			);
+			path = ZHMultiSelectBtnViewTests;
+			sourceTree = "<group>";
+		};
+		04A5F69B215372F300921B28 /* ZHMultiSelectBtnViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04A5F69C215372F300921B28 /* ZHMultiSelectBtnViewUITests.m */,
+				04A5F69E215372F300921B28 /* Info.plist */,
+			);
+			path = ZHMultiSelectBtnViewUITests;
+			sourceTree = "<group>";
+		};
+		04A5F6AA215372FB00921B28 /* ZHMultiSelectBtnView */ = {
+			isa = PBXGroup;
+			children = (
+				04A5F6AB2153730800921B28 /* ZHMultiSelectBtnView.h */,
+				04A5F6AC2153730800921B28 /* ZHMultiSelectBtnView.m */,
+			);
+			path = ZHMultiSelectBtnView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A5F674215372F100921B28 /* ZHMultiSelectBtnView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A5F6A1215372F300921B28 /* Build configuration list for PBXNativeTarget "ZHMultiSelectBtnView" */;
+			buildPhases = (
+				04A5F671215372F100921B28 /* Sources */,
+				04A5F672215372F100921B28 /* Frameworks */,
+				04A5F673215372F100921B28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHMultiSelectBtnView;
+			productName = ZHMultiSelectBtnView;
+			productReference = 04A5F675215372F100921B28 /* ZHMultiSelectBtnView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04A5F68C215372F300921B28 /* ZHMultiSelectBtnViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A5F6A4215372F300921B28 /* Build configuration list for PBXNativeTarget "ZHMultiSelectBtnViewTests" */;
+			buildPhases = (
+				04A5F689215372F300921B28 /* Sources */,
+				04A5F68A215372F300921B28 /* Frameworks */,
+				04A5F68B215372F300921B28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A5F68F215372F300921B28 /* PBXTargetDependency */,
+			);
+			name = ZHMultiSelectBtnViewTests;
+			productName = ZHMultiSelectBtnViewTests;
+			productReference = 04A5F68D215372F300921B28 /* ZHMultiSelectBtnViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04A5F697215372F300921B28 /* ZHMultiSelectBtnViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A5F6A7215372F300921B28 /* Build configuration list for PBXNativeTarget "ZHMultiSelectBtnViewUITests" */;
+			buildPhases = (
+				04A5F694215372F300921B28 /* Sources */,
+				04A5F695215372F300921B28 /* Frameworks */,
+				04A5F696215372F300921B28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A5F69A215372F300921B28 /* PBXTargetDependency */,
+			);
+			name = ZHMultiSelectBtnViewUITests;
+			productName = ZHMultiSelectBtnViewUITests;
+			productReference = 04A5F698215372F300921B28 /* ZHMultiSelectBtnViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A5F66D215372F100921B28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = chinamobile;
+				TargetAttributes = {
+					04A5F674215372F100921B28 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					04A5F68C215372F300921B28 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 04A5F674215372F100921B28;
+					};
+					04A5F697215372F300921B28 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 04A5F674215372F100921B28;
+					};
+				};
+			};
+			buildConfigurationList = 04A5F670215372F100921B28 /* Build configuration list for PBXProject "ZHMultiSelectBtnView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A5F66C215372F100921B28;
+			productRefGroup = 04A5F676215372F100921B28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A5F674215372F100921B28 /* ZHMultiSelectBtnView */,
+				04A5F68C215372F300921B28 /* ZHMultiSelectBtnViewTests */,
+				04A5F697215372F300921B28 /* ZHMultiSelectBtnViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A5F673215372F100921B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A5F685215372F300921B28 /* LaunchScreen.storyboard in Resources */,
+				04A5F682215372F300921B28 /* Assets.xcassets in Resources */,
+				04A5F6B22153732800921B28 /* ZHViewController.xib in Resources */,
+				04A5F6B7215376F300921B28 /* ZHBtnCameraView.xib in Resources */,
+				04A5F680215372F100921B28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A5F68B215372F300921B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A5F696215372F300921B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A5F671215372F100921B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A5F6B5215376E200921B28 /* ZHBtnCameraView.m in Sources */,
+				04A5F67D215372F100921B28 /* ViewController.m in Sources */,
+				04A5F6BA2153957E00921B28 /* UIImage+Helper.m in Sources */,
+				04A5F6AD2153730800921B28 /* ZHMultiSelectBtnView.m in Sources */,
+				04A5F688215372F300921B28 /* main.m in Sources */,
+				04A5F67A215372F100921B28 /* AppDelegate.m in Sources */,
+				04A5F6B12153732800921B28 /* ZHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A5F689215372F300921B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A5F692215372F300921B28 /* ZHMultiSelectBtnViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A5F694215372F300921B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A5F69D215372F300921B28 /* ZHMultiSelectBtnViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A5F68F215372F300921B28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A5F674215372F100921B28 /* ZHMultiSelectBtnView */;
+			targetProxy = 04A5F68E215372F300921B28 /* PBXContainerItemProxy */;
+		};
+		04A5F69A215372F300921B28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A5F674215372F100921B28 /* ZHMultiSelectBtnView */;
+			targetProxy = 04A5F699215372F300921B28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04A5F67E215372F100921B28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A5F67F215372F100921B28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A5F683215372F300921B28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A5F684215372F300921B28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A5F69F215372F300921B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04A5F6A0215372F300921B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A5F6A2215372F300921B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CET8PW4GJ;
+				INFOPLIST_FILE = ZHMultiSelectBtnView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmrz.ZHMultiSelectBtnView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A5F6A3215372F300921B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CET8PW4GJ;
+				INFOPLIST_FILE = ZHMultiSelectBtnView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmrz.ZHMultiSelectBtnView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04A5F6A5215372F300921B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CET8PW4GJ;
+				INFOPLIST_FILE = ZHMultiSelectBtnViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmrz.ZHMultiSelectBtnViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHMultiSelectBtnView.app/ZHMultiSelectBtnView";
+			};
+			name = Debug;
+		};
+		04A5F6A6215372F300921B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CET8PW4GJ;
+				INFOPLIST_FILE = ZHMultiSelectBtnViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmrz.ZHMultiSelectBtnViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHMultiSelectBtnView.app/ZHMultiSelectBtnView";
+			};
+			name = Release;
+		};
+		04A5F6A8215372F300921B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CET8PW4GJ;
+				INFOPLIST_FILE = ZHMultiSelectBtnViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmrz.ZHMultiSelectBtnViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZHMultiSelectBtnView;
+			};
+			name = Debug;
+		};
+		04A5F6A9215372F300921B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CET8PW4GJ;
+				INFOPLIST_FILE = ZHMultiSelectBtnViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmrz.ZHMultiSelectBtnViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZHMultiSelectBtnView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A5F670215372F100921B28 /* Build configuration list for PBXProject "ZHMultiSelectBtnView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A5F69F215372F300921B28 /* Debug */,
+				04A5F6A0215372F300921B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A5F6A1215372F300921B28 /* Build configuration list for PBXNativeTarget "ZHMultiSelectBtnView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A5F6A2215372F300921B28 /* Debug */,
+				04A5F6A3215372F300921B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A5F6A4215372F300921B28 /* Build configuration list for PBXNativeTarget "ZHMultiSelectBtnViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A5F6A5215372F300921B28 /* Debug */,
+				04A5F6A6215372F300921B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A5F6A7215372F300921B28 /* Build configuration list for PBXNativeTarget "ZHMultiSelectBtnViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A5F6A8215372F300921B28 /* Debug */,
+				04A5F6A9215372F300921B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A5F66D215372F100921B28 /* Project object */;
+}
